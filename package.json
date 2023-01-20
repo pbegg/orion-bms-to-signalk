@@ -6,12 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Phil Begg",
+  "license": "Apache-2.0",
   "dependencies": {
     "socketcan": "^4.0.2"
   },
   "keywords": [
     "signalk-node-server-plugin"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pbegg/orion-bms-to-signalk"
+  }
 }
