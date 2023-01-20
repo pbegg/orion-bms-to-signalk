@@ -1,0 +1,58 @@
+{
+    "data": [
+        {
+            "name": "Pack_DCL",
+            "bitStart": 7,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "Amps"
+        },
+        {
+            "name": "Pack_CCL",
+            "bitStart": 23,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "AMPS"
+        },
+        {
+            "name": "Blank",
+            "bitStart": 31,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": ""
+        },
+        {
+            "name": "High_Temperature",
+            "bitStart": 39,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "C"
+        },
+        {
+            "name": "Low_Temperature",
+            "bitStart": 47,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "C"
+        },
+        {
+            "name": "Blank",
+            "bitStart": 55,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": ""
+        }
+    ]
+}

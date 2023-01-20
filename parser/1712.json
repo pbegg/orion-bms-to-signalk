@@ -1,0 +1,40 @@
+{
+    "data": [
+        {
+            "name": "Pack_Current",
+            "bitStart": 7,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 0.1,
+            "offset": 0,
+            "units": "Amps"
+        },
+        {
+            "name": "Pack_Inst_Voltage",
+            "bitStart": 23,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 0.1,
+            "offset": 0,
+            "units": "Volts"
+        },
+        {
+            "name": "Pack_SOC",
+            "bitStart": 39,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 0.5,
+            "offset": 0,
+            "units": "%"
+        },
+        {
+            "name": "Relay_State",
+            "bitStart": 47,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": ""
+        }
+    ]
+}
