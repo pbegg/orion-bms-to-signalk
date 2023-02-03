@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "name": "Low_Cell_Voltage",
+            "bitStart": 7,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "Amps"
+        },
+        {
+            "name": "High_Cell_Voltage_ID",
+            "bitStart": 23,
+            "bitLength": 16,
+            "endian": "MSB",
+            "resolution": 10000,
+            "offset": 0,
+            "units": "AMPS"
+        },
+        {
+            "name": "High_Temperature",
+            "bitStart": 39,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": ""
+        },
+        {
+            "name": "Low_Temperature",
+            "bitStart": 47,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "C"
+        },
+        {
+            "name": "Internal_Temperature",
+            "bitStart": 55,
+            "bitLength": 8,
+            "endian": "MSB",
+            "resolution": 1,
+            "offset": 0,
+            "units": "C"
+        }
+    ]
+}
